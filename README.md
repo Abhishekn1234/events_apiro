@@ -1,291 +1,48 @@
 # Evently
 
-## Live Preview And Repositories
+## Live Preview
 
 - [Open the live Evently application](https://events-frontend-apiro.vercel.app/)
 - [Open the live Evently API](https://events-backend-apiro.onrender.com/)
-- [Frontend repository](https://github.com/Abhishekn1234/events_frontend_apiro)
-- [Backend repository](https://github.com/Abhishekn1234/events_backend_apiro)
+- [View the frontend repository](https://github.com/Abhishekn1234/events_frontend_apiro)
+- [View the backend repository](https://github.com/Abhishekn1234/events_backend_apiro)
 
 ## Events Worth Showing Up For
-
-Evently is a simple, welcoming place to discover events, reserve tickets, and bring people together.
-
-## Product Preview
-
-### Discover
-
-Browse concerts, technology events, workshops, sports, and other experiences from one focused event feed. Search by name, filter by category, and see ticket availability before opening an event.
-
-### Book
-
-Open an event to see its date, location, description, price, and remaining tickets. Choose the number of tickets you need and complete the reservation in a clear, focused flow.
-
-### Keep Track
-
-The bookings area brings confirmed reservations into one calm view with event details, ticket counts, booking status, and amount paid.
-
-### Organize
-
-Organizers can publish events, manage ticket inventory, follow sales and revenue, and view confirmed attendees from a dedicated workspace.
-
-## Designed For
-
-| Customers | Organizers |
-| --- | --- |
-| Find events quickly | Publish new events |
-| Compare availability and price | Monitor ticket momentum |
-| Reserve tickets confidently | Review revenue and fill rate |
-| Keep bookings in one place | Manage confirmed attendees |
-
-## Experience
-
-Evently is responsive across mobile, tablet, and desktop screens. Navigation, forms, event cards, booking details, dashboards, and attendee lists adapt naturally to the available space.
-
-## Product Areas
-
-- Event discovery and category browsing
-- Event details and ticket reservation
-- Customer bookings
-- Organizer dashboard
-- Event creation and management
-- Attendee list
-- Account sign-in and registration
-
-## A Clearer Way To Gather
-
-Evently keeps the important information close at hand so customers can make plans and organizers can keep events moving.# Evently
-
-## Live Preview And Repositories
-
-- [Open the live Evently application](https://events-frontend-apiro.vercel.app/)
-- [Open the live Evently API](https://events-backend-apiro.onrender.com/)
-- [Frontend repository](https://github.com/Abhishekn1234/events_frontend_apiro)
-- [Backend repository](https://github.com/Abhishekn1234/events_backend_apiro)
-
-## Events Worth Showing Up For
-
-# Evently
-
-## Live Preview And Repositories
-
-- [Open the live Evently application](https://events-frontend-apiro.vercel.app/)
-- [Open the live Evently API](https://events-backend-apiro.onrender.com/)
-- [Frontend repository](https://github.com/Abhishekn1234/events_frontend_apiro)
-- [Backend repository](https://github.com/Abhishekn1234/events_backend_apiro)
-
-## Events Worth Showing Up For
-
-Evently is a simple, welcoming place to discover events, reserve tickets, and bring people together.
-
-## Product Preview
-
-### Discover
-
-Browse concerts, technology events, workshops, sports, and other experiences from one focused event feed. Search by name, filter by category, and see ticket availability before opening an event.
-
-### Book
-
-Open an event to see its date, location, description, price, and remaining tickets. Choose the number of tickets you need and complete the reservation in a clear, focused flow.
-
-### Keep Track
-
-The bookings area brings confirmed reservations into one calm view with event details, ticket counts, booking status, and amount paid.
-
-### Organize
-
-Organizers can publish events, manage ticket inventory, follow sales and revenue, and view confirmed attendees from a dedicated workspace.
-
-## Designed For
-
-| Customers | Organizers |
-| --- | --- |
-| Find events quickly | Publish new events |
-| Compare availability and price | Monitor ticket momentum |
-| Reserve tickets confidently | Review revenue and fill rate |
-| Keep bookings in one place | Manage confirmed attendees |
-
-## Experience
-
-Evently is responsive across mobile, tablet, and desktop screens. Navigation, forms, event cards, booking details, dashboards, and attendee lists adapt naturally to the available space.
-
-## Product Areas
-
-- Event discovery and category browsing
-- Event details and ticket reservation
-- Customer bookings
-- Organizer dashboard
-- Event creation and management
-- Attendee list
-- Account sign-in and registration
-
-## A Clearer Way To Gather
-
-Evently keeps the important information close at hand so customers can make plans and organizers can keep events moving.# Evently
-
-## Error Messages
-
-Evently uses shared, user-friendly fallback messages across every page. API responses keep specific validation details when available; otherwise the frontend displays consistent messages for loading, authentication, booking, event, and attendee failures.
 
 Evently is a full-stack event discovery and ticket booking experience for customers and organizers.
 
-## Product Preview
+## Customer Experience
 
-### For customers
+- Discover upcoming concerts, workshops, technology events, sports, and more.
+- Search events and filter them by category.
+- Review event descriptions, dates, locations, prices, and ticket availability.
+- Reserve tickets through a clear quantity and total-price flow.
+- Keep confirmed reservations together in the My Bookings ticket view.
 
-- Discover upcoming events by category or search.
-- Open a detailed event view with date, location, availability, and pricing.
-- Reserve one or more tickets in a clear booking flow.
-- Review confirmed bookings and ticket totals from a personal dashboard.
-
-### For organizers
+## Organizer Experience
 
 - Create and publish events with ticket inventory and pricing.
-- See event performance, ticket sales, revenue, and fill rate.
-- Review confirmed attendees for each event.
-- Switch to a quieter organizer workspace theme when needed.
+- Track published events, tickets sold, revenue, and fill rate.
+- Review confirmed attendees and their ticket counts.
+- Use a focused organizer workspace with a selectable visual theme.
 
-## Experience
+## Product Flow
 
-The interface is designed for quick scanning on desktop, tablet, and mobile screens. Shared navigation, event cards, forms, dashboards, booking details, and attendee lists adapt to narrow viewports without requiring horizontal scrolling.
-
-## Technology
-
-| Area | Technology |
+| Step | Experience |
 | --- | --- |
-| Frontend | React 19, Vite, Tailwind CSS, Zustand, Axios |
-| Backend | Node.js, Express, Mongoose |
-| Database | MongoDB |
-| Authentication | JWT |
+| Discover | Browse, search, and filter upcoming events |
+| Decide | Review event details, availability, and pricing |
+| Reserve | Select tickets and confirm the booking |
+| Manage | Review bookings or manage events and attendees |
 
-## Project Areas
+## Experience Design
 
-- `frontend/` contains the customer and organizer web experience.
-- `backend/` contains the REST API, authentication, event, and booking services.
+Evently is responsive across mobile, tablet, and desktop screens. Navigation, forms, event cards, booking details, dashboards, and attendee lists adapt to the available space.
 
-## Getting Started
+## Technology Overview
 
-Install dependencies in both project areas, configure the backend environment with a MongoDB connection and JWT secret, then run the API and frontend development servers.
-
-## Roles
-
-Evently supports two account roles: customers book events, while organizers create events and manage attendees.# Evently
-
-Full-stack MERN event and ticket booking portal for customers and organizers.
-
-## Stack
-
-- Frontend: React 19, Vite, Tailwind CSS, Zustand, Axios
-- Backend: Node.js, Express, MongoDB, Mongoose, JWT
-- Booking inventory is reduced atomically inside a MongoDB transaction.
-
-## Local setup
-
-### Backend
-
-```bash
-cd backend
-npm install
-```
-
-Create `backend/.env`:
-
-```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/evently
-JWT_SECRET=replace-with-a-long-random-secret
-FRONTEND_URL=http://localhost:5173
-```
-
-Start the API:
-
-```bash
-npm run dev
-```
-
-The API runs at `http://localhost:5000` and exposes its health check at `/api/health`. The root `/` frontend route is a public landing page; customers sign in before using `/customer/dashboard` to browse and book.
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-```
-
-Create or update `frontend/.env`:
-
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Build and lint the frontend:
-
-```bash
-npm run build
-npm run lint
-```
-
-MongoDB transactions require a replica set. MongoDB Atlas provides this by default; for local MongoDB, use a replica-set deployment.
-
-## Main API routes
-
-- `POST /api/auth/register` and `POST /api/auth/login`
-- `GET /api/events` and `GET /api/events/:id`
-- `POST /api/events` for organizers
-- `GET /api/events/organizer/my-events` for organizers
-- `GET /api/events/:id/attendees` for organizers
-- `POST /api/events/:eventId/book` for customers (the legacy `/api/bookings/:eventId/book` alias is also supported)
-- `GET /api/bookings/my-bookings` for customers
-
-Use a bearer JWT returned by authentication for protected routes.
+The product combines a React and Vite frontend with a Node.js and Express API, MongoDB data storage, JWT authentication, and transaction-aware ticket inventory.
 
 ## Roles
 
-- `CUSTOMER`: browse events, book tickets, and review bookings
-- `ORGANIZER`: create events, view sales summaries, and inspect attendees
-
-Create local test users through the registration screen. For a deployed assessment submission, add non-production demo credentials here after seeding them, and never commit real secrets.
-
-Suggested demo accounts for the deployed submission:
-
-```text
-Organizer: organizer.demo@example.com / OrganizerDemo123!
-Customer: customer.demo@example.com / CustomerDemo123!
-```
-
-Create these accounts through the registration screen after deployment, or seed them with a deployment-only script. Do not reuse these credentials in production.
-
-## Deployment checklist
-
-1. Deploy the backend to Render, Koyeb, Railway, or another Node-compatible host.
-2. Configure `MONGO_URI`, `JWT_SECRET`, `PORT`, and `FRONTEND_URL` in the backend host.
-3. Deploy the frontend to Vercel or Netlify; the repository includes SPA fallback configuration for both hosts.
-4. Set `VITE_API_URL` to the deployed backend `/api` URL before building.
-5. Verify `/api/health`, registration, login, event browsing, and booking from the public frontend.
-6. Set `FRONTEND_URL` on the backend and replace wildcard CORS with the deployed frontend origin before production use.
-
-## Known hardening before production
-
-- Add cancellation and event edit/delete workflows if those are required by the final assessment rubric.
-- Add automated backend tests for role authorization, inventory limits, transaction behavior, and concurrent booking attempts.
-
-## Submission checklist
-
-Before submitting the assessment, replace the placeholders below with the actual public links and verify the deployed demo accounts.
-
-```text
-GitHub repository: <public-repository-url>
-Live frontend: <frontend-url>
-Live backend API: <backend-api-url>
-Organizer demo: organizer.demo@example.com / OrganizerDemo123!
-Customer demo: customer.demo@example.com / CustomerDemo123!
-```
-#   e v e n t s _ a p i r o 
- 
- 
+Customers discover events and manage bookings. Organizers publish events, monitor performance, and manage confirmed attendees.
