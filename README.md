@@ -39,6 +39,8 @@ Evently is a full-stack event discovery and ticket booking experience for custom
 
 Evently is responsive across mobile, tablet, and desktop screens. Navigation, forms, event cards, booking details, dashboards, and attendee lists adapt to the available space.
 
+The footer keeps the experience focused with Evently branding, support contact details, and a short closing message instead of extra promotional navigation.
+
 ## Technology Overview
 
 The product combines a React and Vite frontend with a Node.js and Express API, MongoDB data storage, JWT authentication, and transaction-aware ticket inventory.
